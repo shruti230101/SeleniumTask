@@ -3,9 +3,9 @@
 
     <parameter name="browser" value="${browser}"/>
     <test name="Test Services through Chrome">
-        <packages>
-            <package name="com.epam.test.*"/>
-        </packages>
+        <classes>
+           <class name = "com.epam.test.CheckBoxTest"></class>
+       </classes>
     </test>
 
 <!--    <parameter name="EnterWebDriver" value="edge"/>-->
